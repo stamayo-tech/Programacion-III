@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Prolog External",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "swipl",
+      "args": ["${file}"],
+      "console": "externalTerminal"
+    }
+  ]
+}
